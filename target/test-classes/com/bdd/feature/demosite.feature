@@ -23,5 +23,10 @@ And User click the Add to cart button
 And User click Shopping cart link
 Then User validat the product in shopping cart
 
+Scenario: Test
+And User click the searchbox and search the product "HTC One Mini Blue"
+And User click the Add to cart button
+
+
 
 
