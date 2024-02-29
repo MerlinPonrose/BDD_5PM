@@ -1,0 +1,625 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5542500,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User launches the chromebrowser and open the url \"https://demo.nopcommerce.com/login?returnUrl\u003d%2F\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demo.nopcommerce.com/login?returnUrl\u003d%2F\"",
+                  "offset": 49
+                }
+              ],
+              "location": "DemoSiteApp.user_launches_the_chromebrowser_and_open_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1338700,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User click the emailfield and enter the value \"test1@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test1@test.com\"",
+                  "offset": 46
+                }
+              ],
+              "location": "DemoSiteApp.user_click_the_emailfield_and_enter_the_value(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8840300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User click the passwordtextbox and enter \"123456\" in the passwordfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 41
+                }
+              ],
+              "location": "DemoSiteApp.user_click_the_passwordtextbox_and_enter_in_the_passwordfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1173300,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User click the login button",
+            "match": {
+              "location": "DemoSiteApp.clickSubmitbutton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-28T04:54:08.371Z",
+        "line": 12,
+        "name": "Add product to the Cart",
+        "description": "",
+        "id": "this-feaure-is-to-automate-demo-site;add-product-to-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6373400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User click the searchbox and search the product \"HTC One Mini Blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HTC One Mini Blue\"",
+                  "offset": 48
+                }
+              ],
+              "location": "DemoSiteApp.user_click_the_searchbox_and_search_the_product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350800,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User click the Add to cart button",
+            "match": {
+              "location": "DemoSiteApp.user_click_the_Add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 415300,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User click Shopping cart link",
+            "match": {
+              "location": "DemoSiteApp.user_click_Shopping_cart_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294900,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User validat the product in shopping cart",
+            "match": {
+              "location": "DemoSiteApp.user_validat_ethe_product_in_shopping_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Demosite"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "This feaure is to automate demo site",
+    "description": "",
+    "id": "this-feaure-is-to-automate-demo-site",
+    "keyword": "Feature",
+    "uri": "file:demosite.feature",
+    "tags": [
+      {
+        "name": "@Demosite",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1327900,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User launches the chromebrowser and open the url \"https://demo.nopcommerce.com/login?returnUrl\u003d%2F\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demo.nopcommerce.com/login?returnUrl\u003d%2F\"",
+                  "offset": 49
+                }
+              ],
+              "location": "DemoSiteApp.user_launches_the_chromebrowser_and_open_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2008900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User click the emailfield and enter the value \"test1@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test1@test.com\"",
+                  "offset": 46
+                }
+              ],
+              "location": "DemoSiteApp.user_click_the_emailfield_and_enter_the_value(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 451200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User click the passwordtextbox and enter \"123456\" in the passwordfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 41
+                }
+              ],
+              "location": "DemoSiteApp.user_click_the_passwordtextbox_and_enter_in_the_passwordfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 489700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User click the login button",
+            "match": {
+              "location": "DemoSiteApp.clickSubmitbutton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-28T04:54:08.467Z",
+        "line": 19,
+        "name": "Adding multiple product to cart",
+        "description": "",
+        "id": "multiple-data-to-the-scenario;adding-multiple-product-to-cart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1710100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User click the searchbox and search the product \"HTC One Mini Blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HTC One Mini Blue\"",
+                  "offset": 48
+                }
+              ],
+              "location": "DemoSiteApp.user_click_the_searchbox_and_search_the_product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1251600,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User click the Add to cart button",
+            "match": {
+              "location": "DemoSiteApp.user_click_the_Add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 459900,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User click Shopping cart link",
+            "match": {
+              "location": "DemoSiteApp.user_click_Shopping_cart_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 497200,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User validat the product in shopping cart",
+            "match": {
+              "location": "DemoSiteApp.user_validat_ethe_product_in_shopping_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 546100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User launches the chromebrowser and open the url \"https://demo.nopcommerce.com/login?returnUrl\u003d%2F\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demo.nopcommerce.com/login?returnUrl\u003d%2F\"",
+                  "offset": 49
+                }
+              ],
+              "location": "DemoSiteApp.user_launches_the_chromebrowser_and_open_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 431900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User click the emailfield and enter the value \"test1@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test1@test.com\"",
+                  "offset": 46
+                }
+              ],
+              "location": "DemoSiteApp.user_click_the_emailfield_and_enter_the_value(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 394800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User click the passwordtextbox and enter \"123456\" in the passwordfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 41
+                }
+              ],
+              "location": "DemoSiteApp.user_click_the_passwordtextbox_and_enter_in_the_passwordfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 372000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User click the login button",
+            "match": {
+              "location": "DemoSiteApp.clickSubmitbutton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-28T04:54:08.502Z",
+        "line": 20,
+        "name": "Adding multiple product to cart",
+        "description": "",
+        "id": "multiple-data-to-the-scenario;adding-multiple-product-to-cart;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1792400,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User click the searchbox and search the product \"Nokia Lumia 1020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nokia Lumia 1020\"",
+                  "offset": 48
+                }
+              ],
+              "location": "DemoSiteApp.user_click_the_searchbox_and_search_the_product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312900,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User click the Add to cart button",
+            "match": {
+              "location": "DemoSiteApp.user_click_the_Add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 389100,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User click Shopping cart link",
+            "match": {
+              "location": "DemoSiteApp.user_click_Shopping_cart_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 519800,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User validat the product in shopping cart",
+            "match": {
+              "location": "DemoSiteApp.user_validat_ethe_product_in_shopping_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Multiple data to the scenario",
+    "description": "",
+    "id": "multiple-data-to-the-scenario",
+    "keyword": "Feature",
+    "uri": "file:multipledata.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 610600,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User launches the chromebrowser and open the url \"https://demo.nopcommerce.com/login?returnUrl\u003d%2F\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demo.nopcommerce.com/login?returnUrl\u003d%2F\"",
+                  "offset": 49
+                }
+              ],
+              "location": "DemoSiteApp.user_launches_the_chromebrowser_and_open_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 549000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User click the emailfield and enter the value \"test1@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test1@test.com\"",
+                  "offset": 46
+                }
+              ],
+              "location": "DemoSiteApp.user_click_the_emailfield_and_enter_the_value(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 618300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User click the passwordtextbox and enter \"123456\" in the passwordfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 41
+                }
+              ],
+              "location": "DemoSiteApp.user_click_the_passwordtextbox_and_enter_in_the_passwordfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 557200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User click the login button",
+            "match": {
+              "location": "DemoSiteApp.clickSubmitbutton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-28T04:54:08.527Z",
+        "line": 12,
+        "name": "Add product to the Cart",
+        "description": "",
+        "id": "this-feaure-is-to-automate-demo-site;add-product-to-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1190900,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User click the searchbox and search the product \"HTC One Mini Blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HTC One Mini Blue\"",
+                  "offset": 48
+                }
+              ],
+              "location": "DemoSiteApp.user_click_the_searchbox_and_search_the_product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2603700,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User click the Add to cart button",
+            "match": {
+              "location": "DemoSiteApp.user_click_the_Add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 431000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User click Shopping cart link",
+            "match": {
+              "location": "DemoSiteApp.user_click_Shopping_cart_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 504100,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User validat the product in shopping cart",
+            "match": {
+              "location": "DemoSiteApp.user_validat_ethe_product_in_shopping_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feaure is to automate demo site",
+    "description": "",
+    "id": "this-feaure-is-to-automate-demo-site",
+    "keyword": "Feature",
+    "uri": "file:test.feature",
+    "tags": []
+  }
+]
