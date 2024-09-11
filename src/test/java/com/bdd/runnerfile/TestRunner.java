@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 glue="com.bdd.stepdefinition",
 plugin= {"pretty","html:target/cucumber","json:target/cucumber.json"},
 monochrome=true,
-dryRun=true)
+dryRun=false)
 public class TestRunner {
 
 }
